@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>11357607-B8CE-47F2-B7D7-F4421A0AD6EE</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>11357607-B8CE-47F2-B7D7-F4421A0AD6EE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>RNApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RNApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project RNApp with scheme RNApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>570299819.32700002</real>
+			<key>timeStoppedRecording</key>
+			<real>570299825.41723704</real>
+			<key>title</key>
+			<string>Building project RNApp with scheme RNApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>11357607-B8CE-47F2-B7D7-F4421A0AD6EE</string>
+		</dict>
+		<key>DB717382-4217-492A-BAAA-D58BADD9C326</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DB717382-4217-492A-BAAA-D58BADD9C326.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>RNApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RNApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project RNApp with scheme RNApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>570304103.65148401</real>
+			<key>timeStoppedRecording</key>
+			<real>570304111.04525399</real>
+			<key>title</key>
+			<string>Building project RNApp with scheme RNApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>DB717382-4217-492A-BAAA-D58BADD9C326</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/shezo/WebstormProjects/RNApp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/shezo/WebstormProjects/RNApp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

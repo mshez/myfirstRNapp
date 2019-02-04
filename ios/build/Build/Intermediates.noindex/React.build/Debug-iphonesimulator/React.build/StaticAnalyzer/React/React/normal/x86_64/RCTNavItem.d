@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Views/RCTNavItem.m \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Views/RCTNavItem.h \
+  /Users/shezo/WebstormProjects/RNApp/node_modules/react-native/React/Views/RCTComponent.h

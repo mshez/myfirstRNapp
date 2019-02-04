@@ -1,51 +1,57 @@
-import React, { Component } from "react";
-import { StyleSheet, View } from "react-native";
+import React from 'react'
+import {Navigation} from "react-native-navigation";
+import {registerScreens} from './src/screens/index'
 
-import PlaceInput from "./src/components/PlaceInput/PlaceInput";
-import PlaceList from "./src/components/PlaceList/PlaceList";
-
-export default class App extends Component {
-  state = {
-    places: []
-  };
-
-  placeAddedHandler = placeName => {
-    this.setState(prevState => {
-      return {
-        places: prevState.places.concat(placeName)
-      };
-    });
-  };
-
-  placeDeletedHandler = index => {
-    this.setState(prevState => {
-      return {
-        places: prevState.places.filter((place, i) => {
-          return i !== index;
-        })
-      };
-    });
-  };
-
-  render() {
-    return (
-      <View style={styles.container}>
-        <PlaceInput onPlaceAdded={this.placeAddedHandler} />
-        <PlaceList
-          places={this.state.places}
-          onItemDeleted={this.placeDeletedHandler}
-        />
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 26,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "flex-start"
-  }
+registerScreens();
+Navigation.events().registerAppLaunchedListener(() => {
+  Navigation.setDefaultOptions({
+    topBar: {
+      background: {
+        color: '#ccc'
+      },
+      title: {
+        color: 'black',
+      },
+      backButton: {
+        title: '', // Remove previous screen name from back button
+        color: 'white'
+      },
+      buttonColor: 'white',
+    },
+    statusBar: {
+      style: 'light'
+    },
+    layout: {
+      orientation: ['portrait']
+    },
+    bottomTabs: {
+      titleDisplayMode: 'alwaysShow'
+    },
+    bottomTab: {
+      textColor: 'gray',
+      selectedTextColor: 'black',
+      iconColor: 'gray',
+      selectedIconColor: 'black',
+    }
+  });
+  Navigation.setRoot({
+    root: {
+      stack: {
+        children: [{
+          component: {
+            name: 'awesome-places.AuthScreen',
+            options: {
+              topBar: {
+                visible: true,
+                title: {
+                  text: 'Welcome screen',
+                  color: 'Black'
+                }
+              }
+            }
+          }
+        }]
+      }
+    }
+  });
 });
