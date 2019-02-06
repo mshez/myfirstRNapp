@@ -5,6 +5,29 @@ import {connect} from 'react-redux';
 import PlaceList from './../../components/PlaceList/PlaceList'
 
 class FindPlaceScreen extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      isSideDrawerVisible : false
+    }
+  }
+
+  componentDidMount() {
+    this.navigationEventListener = Navigation.events().bindComponent(this);
+  }
+
+  navigationButtonPressed({buttonId}) {
+    if(buttonId==='menuBtn'){
+      (!this.isSideDrawerVisible) ? this.isSideDrawerVisible = true : this.isSideDrawerVisible = false
+      Navigation.mergeOptions(this.props.componentId, {
+        sideMenu: {
+          left: {
+            visible : this.isSideDrawerVisible
+          }
+        }
+      });
+    }
+  }
   placeSelectHandler = (key) => {
     const selPlace = this.props.places.find(place=>{
       return place.key === key

@@ -4,7 +4,8 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const startTabs = () => {
   Promise.all([
     Icon.getImageSource("md-map",30),
-    Icon.getImageSource("md-share-alt",30)
+    Icon.getImageSource("md-share-alt",30),
+    Icon.getImageSource("md-menu",30)
   ]).then((sources)=>{
     /*Navigation.setRoot({
       root: {
@@ -109,6 +110,7 @@ const startTabs = () => {
         sideMenu: {
           left: {
             component: {
+              id: 'leftSideDrawer',
               name: 'awesome-places.SideDrawer',
               passProps: {
                 side: 'left'
@@ -131,8 +133,14 @@ const startTabs = () => {
                             visible: true,
                             title: {
                               text: 'Find place screen',
-                              color: 'Black'
-                            }
+                              color: 'black'
+                            },
+                            leftButtons: [{
+                              id: 'menuBtn',
+                              icon: sources[2],
+                              title: 'Menu',
+                              color:'black'
+                            }]
                           }
                         }
                       }
@@ -160,7 +168,13 @@ const startTabs = () => {
                             title: {
                               text: 'Share place screen',
                               color: 'Black'
-                            }
+                            },
+                            leftButtons: [{
+                              id: 'menuBtn',
+                              icon: sources[2],
+                              title: 'Menu',
+                              color:'black'
+                            }]
                           }
                         }
                       }
