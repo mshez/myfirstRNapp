@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import {Button, StyleSheet, Text, View,Dimensions} from "react-native";
+import MapView from 'react-native-maps'
 
 class LocationPicker extends Component {
   constructor(props){
@@ -63,8 +64,20 @@ class LocationPicker extends Component {
     })
   }
   render(){
+    let marker = null
+    if(this.state.locationChosen){
+      marker = <MapView.Marker coordinate={this.state.focusedLocation} />
+    }
     return(
       <View style={styles.container}>
+        <MapView
+          initialRegion={this.state.focusedLocation}
+          onPress={this.picklocationHandler}
+          style={styles.map}
+          ref={ref=>this.map = ref}
+        >
+          {marker}
+        </MapView>
         <View style={styles.button}>
           <Button title="Locate me" onPress={this.getLocationHandler}/>
         </View>
