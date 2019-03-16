@@ -6,7 +6,7 @@ import {addPlace} from './../../store/actions/index'
 import {Navigation} from 'react-native-navigation'
 import MainText from './../../components/UI/MainText/MainText'
 import HeadingText from './../../components/UI/HeadingText/HeadingText'
-import PickImage from './../../components/ImagePicker/ImagePicker'
+import PickImage from '../../components/ImagePicker/PickImage'
 import LocationPicker from './../../components/LocationPicker/LocationPicker'
 import PlaceInput from "../../components/PlaceInput/PlaceInput";
 
