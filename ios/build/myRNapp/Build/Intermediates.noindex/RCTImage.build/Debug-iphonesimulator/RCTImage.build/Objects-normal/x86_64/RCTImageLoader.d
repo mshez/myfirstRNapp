@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/Libraries/Image/RCTImageLoader.m \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGValue.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTImageLoader.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTResizeMode.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/Libraries/Image/RCTImageCache.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/Libraries/Image/RCTImageUtils.h

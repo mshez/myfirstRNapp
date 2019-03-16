@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapPolygon.m \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapPolygon.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapCoordinate.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native-maps/lib/ios/AirMaps/AIRMap.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native-maps/lib/ios/AirMaps/Callout/SMCalloutView.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native-maps/lib/ios/AirMaps/RCTConvert+AirMap.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGValue.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h

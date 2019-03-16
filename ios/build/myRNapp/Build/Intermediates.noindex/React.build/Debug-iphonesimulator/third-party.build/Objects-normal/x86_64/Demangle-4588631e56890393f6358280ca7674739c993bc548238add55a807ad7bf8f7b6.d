@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.cpp \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/FBString.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/Hash.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV1.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV2.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/Malloc.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/detail/MallocImpl.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/detail/Demangle.h

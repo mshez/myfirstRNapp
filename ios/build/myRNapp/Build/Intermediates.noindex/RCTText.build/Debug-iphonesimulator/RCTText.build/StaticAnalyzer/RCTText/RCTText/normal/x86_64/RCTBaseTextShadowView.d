@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.m \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGValue.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/Libraries/Text/RCTTextTransform.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/Libraries/Text/RawText/RCTRawTextShadowView.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.h

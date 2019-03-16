@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.m \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/RCTView.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/ios/build/myRNapp/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/ScrollView/RCTScrollView.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/shezo/Documents/GitHub/myfirstRNapp/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h
