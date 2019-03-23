@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Image</string>
+	<string>Using library</string>
 	<key>NSAppleMusicUsageDescription</key>
 	<string>Image</string>
 	<key>LSApplicationCategoryType</key>
