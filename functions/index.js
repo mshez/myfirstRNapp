@@ -3,19 +3,19 @@ const cors = require("cors")({origin:true})
 const fs = require("fs")
 const UUID = require('uuid-v4')
 
-/*const gcconfig = {
+const gcconfig = {
   projectId: "omega-winter-151719",
-  keyFilename: "omega-winter-151719-firebase-adminsdk-na617-9a01409b69"
-};*/
-const {
+  keyFilename: "omega-winter-151719-firebase-adminsdk-na617-f071969947.json"
+};
+/*const {
   Storage
 } = require('@google-cloud/storage');
 
 const gcs = new Storage({
   projectId: "omega-winter-151719",
   keyFilename: "omega-winter-151719-firebase-adminsdk-na617-f071969947.json"
-});
-// const gcs = require("@google-cloud/storage")(gcconfig);
+});*/
+const gcs = require("@google-cloud/storage")(gcconfig);
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions

@@ -3,6 +3,7 @@ import {View, Text, TouchableOpacity, StyleSheet, Animated} from 'react-native';
 import {Navigation} from "react-native-navigation";
 import {connect} from 'react-redux';
 import PlaceList from './../../components/PlaceList/PlaceList'
+import {getPlaces} from './../../store/actions/index'
 
 class FindPlaceScreen extends Component {
   constructor(props) {
@@ -20,6 +21,7 @@ class FindPlaceScreen extends Component {
 
   componentDidMount() {
     this.navigationEventListener = Navigation.events().bindComponent(this);
+    this.props.onLoadPlaces()
   }
 
   navigationButtonPressed({buttonId}) {
@@ -133,9 +135,14 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   }
 })
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadPlaces: () => dispatch(getPlaces())
+  }
+}
 const mapStateToProps = state => {
   return {
     places: state.places.places
   }
 }
-export default connect(mapStateToProps)(FindPlaceScreen);
+export default connect(mapStateToProps,mapDispatchToProps)(FindPlaceScreen);

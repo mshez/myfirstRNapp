@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Button, ScrollView, StyleSheet} from 'react-native';
+import {View, Button, ScrollView, StyleSheet, Text, ActivityIndicator} from 'react-native';
 import {connect} from 'react-redux'
 import validate from '../../utility/validation'
 import {addPlace} from './../../store/actions/index'
@@ -15,7 +15,7 @@ class SharePlaceScreen extends Component {
     super(props)
     this.state = {
       isSideDrawerVisible: false,
-      controls : {
+      controls: {
         placeName: {
           value: "",
           valid: false,
@@ -24,12 +24,12 @@ class SharePlaceScreen extends Component {
             'isEmpty': true
           }
         },
-        location : {
-          value : null,
+        location: {
+          value: null,
           valid: false
         },
-        image : {
-          value : null,
+        image: {
+          value: null,
           valid: false
         }
       }
@@ -52,28 +52,29 @@ class SharePlaceScreen extends Component {
       });
     }
   }
+
   onLocationPickHandler = (location) => {
-    this.setState(prevState=>{
+    this.setState(prevState => {
       return {
-        controls : {
+        controls: {
           ...prevState.controls,
-          location : {
-            value : location,
-            valid : true
+          location: {
+            value: location,
+            valid: true
           }
         }
       }
     })
   }
   placeNameChangedHandler = val => {
-    this.setState(prevState=>{
+    this.setState(prevState => {
       return {
-        controls : {
+        controls: {
           ...prevState.controls,
           placeName: {
             ...prevState.controls.placeName,
             value: val,
-            valid: validate(val,prevState.controls.placeName.validationRules)
+            valid: validate(val, prevState.controls.placeName.validationRules)
           }
         }
       }
@@ -87,9 +88,9 @@ class SharePlaceScreen extends Component {
     )
   }
   imagePickedHandler = (image) => {
-    this.setState(prevState=>{
+    this.setState(prevState => {
       return {
-        controls : {
+        controls: {
           ...prevState.controls,
           image: {
             value: image,
@@ -99,8 +100,20 @@ class SharePlaceScreen extends Component {
       }
     });
   }
-  render() {
 
+  render() {
+    let submitButton = (
+      <Button title="Share the Place!" disabled={
+        !this.state.controls.placeName.valid ||
+        !this.state.controls.location.valid ||
+        !this.state.controls.image.valid
+      } onPress={this.placeAddedHandler}/>
+    )
+    if (this.props.isLoading) {
+      submitButton = (
+        <ActivityIndicator/>
+      )
+    }
     return (
       <ScrollView>
         <View style={styles.container}>
@@ -113,11 +126,7 @@ class SharePlaceScreen extends Component {
           <LocationPicker onLocationPick={this.onLocationPickHandler}/>
           <PlaceInput placeName={this.state.controls.placeName.val} onChangeText={this.placeNameChangedHandler}/>
           <View style={styles.button}>
-            <Button title="Share the Place!" disabled={
-              !this.state.controls.placeName.valid ||
-              !this.state.controls.location.valid ||
-              !this.state.controls.image.valid
-            } onPress={this.placeAddedHandler}/>
+            {submitButton}
           </View>
         </View>
       </ScrollView>
@@ -129,15 +138,20 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    width:'100%'
+    width: '100%'
   },
   button: {
     margin: 8
   }
 })
-const mapDispatchToProps = dispatch => {
+const mapStateToProps = state => {
   return {
-    onAddPlace: (placeName,location,image) => dispatch(addPlace(placeName,location,image))
+    isLoading: state.ui.isLoading
   }
 }
-export default connect(null, mapDispatchToProps)(SharePlaceScreen);
+const mapDispatchToProps = dispatch => {
+  return {
+    onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image))
+  }
+}
+export default connect(mapStateToProps, mapDispatchToProps)(SharePlaceScreen);

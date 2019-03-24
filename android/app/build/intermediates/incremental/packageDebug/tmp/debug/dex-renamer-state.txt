@@ -1,0 +1,4 @@
+#Sun Mar 24 19:34:54 PKT 2019
+base.0=/Users/shezo/Documents/GitHub/myfirstRNapp/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
