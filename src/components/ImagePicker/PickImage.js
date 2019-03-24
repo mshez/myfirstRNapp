@@ -1,8 +1,12 @@
 import React,{Component} from 'react'
 import {Button, Image, StyleSheet, View} from "react-native";
-import ImagePicker from 'react-native-image-picker';
+// import ImagePicker from 'react-native-image-picker';
+import ImagePicker from 'react-native-image-crop-picker';
 const options = {
-  title : "Pick an image"
+  title : "Pick an image",
+  width: 300,
+  height: 400,
+  cropping: false
 }
 class PickImage extends Component {
   constructor(props){
@@ -13,7 +17,14 @@ class PickImage extends Component {
     this.pickImageHandler = this.pickImageHandler.bind(this)
   }
   pickImageHandler() {
-    ImagePicker.showImagePicker(
+    ImagePicker.openPicker(options).then(      (response) => {
+      console.log(response)
+      this.setState({
+        pickedImage: {uri: response.path}
+      })
+      this.props.onImagePicked({uri:response.path, base64: response.data})
+    });
+/*    ImagePicker.openPicker(
       options,
       (response) => {
         if (response.didCancel) {
@@ -27,7 +38,7 @@ class PickImage extends Component {
           this.props.onImagePicked({uri:response.uri, base64: response.data})
         }
       }
-    )
+    )*/
   }
   render(){
     return(
