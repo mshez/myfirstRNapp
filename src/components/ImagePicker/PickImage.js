@@ -23,7 +23,6 @@ class PickImage extends Component {
       this.setState({
         pickedImage: {uri: response.path}
       })
-      debugger
       this.props.onImagePicked({uri:response.path, base64: response.data})
     });
 /*    ImagePicker.openPicker(

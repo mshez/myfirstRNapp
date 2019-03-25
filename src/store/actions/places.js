@@ -1,4 +1,4 @@
-import {SET_PLACES} from './actionTypes';
+import {SET_PLACES,REMOVE_PLACE} from './actionTypes';
 import {uiStopLoading, uiStartLoading} from "./ui";
 
 export const addPlace = (placeName, location, image) => {
@@ -30,6 +30,7 @@ export const addPlace = (placeName, location, image) => {
       .then(res => res.json())
       .then(parsedRes => {
         console.log(parsedRes);
+        dispatch(getPlaces())
         dispatch(uiStopLoading());
       });
   };
@@ -45,14 +46,14 @@ export const getPlaces = () => {
       .then(res => res.json())
       .then(parsedRes => {
         let places = []
-        Object.keys(parsedRes).map((place, index) => {
+        Object.keys(parsedRes).map((placeKey) => {
           places.push(
             {
-              ...parsedRes[place],
+              ...parsedRes[placeKey],
               image: {
-                uri: parsedRes[place].image
+                uri: parsedRes[placeKey].image
               },
-              key: index
+              key: placeKey
             })
         })
         console.log(places)
@@ -68,9 +69,25 @@ export const setPlaces = places => {
   }
 }
 
-// export const deletePlace = (key) => {
-//   return {
-//     type: DELETE_PLACE,
-//     placeKey: key
-//   };
-// };
+export const deletePlace = (key) => {
+  return dispatch => {
+    fetch("https://omega-winter-151719.firebaseio.com/places/"+key+".json",{
+      method: "DELETE"
+    })
+      .catch(err => {
+        console.log(err)
+        alert("Something went wrong try again")
+      })
+      .then(res => res.json())
+      .then(parsedRes => {
+        dispatch(removePlace(key))
+      })
+  }
+};
+
+export const removePlace = key => {
+  return {
+    type: REMOVE_PLACE,
+    key: key
+  }
+}
