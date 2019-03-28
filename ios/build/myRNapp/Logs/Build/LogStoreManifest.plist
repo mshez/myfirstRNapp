@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>E61180C0-BE02-441F-AF9A-06E94ADE3A26</key>
+		<key>5F26E240-E3CE-43A5-B28A-1919888B8A44</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E61180C0-BE02-441F-AF9A-06E94ADE3A26.xcactivitylog</string>
+			<string>5F26E240-E3CE-43A5-B28A-1919888B8A44.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,13 @@
 			<key>signature</key>
 			<string>Building project myRNapp with scheme myRNapp and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>575140513.03702903</real>
+			<real>575396459.15550196</real>
 			<key>timeStoppedRecording</key>
-			<real>575140515.49445295</real>
+			<real>575396464.38538599</real>
 			<key>title</key>
 			<string>Building project myRNapp with scheme myRNapp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>E61180C0-BE02-441F-AF9A-06E94ADE3A26</string>
+			<string>5F26E240-E3CE-43A5-B28A-1919888B8A44</string>
 		</dict>
 	</dict>
 </dict>
