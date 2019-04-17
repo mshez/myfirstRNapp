@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		W2Ug6xA8waFfCBWmICV3LZgTQfE=
+		y8oYYWiJsAZzjrcZOg0gDWlVdGI=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -50,35 +50,35 @@
 		</data>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker</key>
 		<data>
-		GXuiYMP45eEnh+R2rK/SoUppXQU=
+		16C40K8h/35t6JqdLxVaWtwILow=
 		</data>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/Info.plist</key>
 		<data>
-		iwZHbHPu3m3FYRI+FCDLbHeFs44=
+		ezcmCSu/AZf6Yg2EE4g68sOmjLE=
 		</data>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QBAlbumsNavigationController.nib</key>
 		<data>
-		910GW/g83uZjKEaoWVMZh/v4K2A=
+		sWhBtG1EUpAKZ5PBdA7Nt+vSghA=
 		</data>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QBAlbumsViewController.nib</key>
 		<data>
-		pIIl4DLIjiBEt0Uo/bc+YbE0hYo=
+		DUx2rSjfDlWumjghETaK90xu+ek=
 		</data>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QBAssetsViewController.nib</key>
 		<data>
-		TwyN5uZXfLKlOupS6BPUvmC4ev8=
+		dqugcX+VWIs0z/lFl8HUQW+obaY=
 		</data>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib</key>
 		<data>
-		W7YldsVLcntIklTUyIsB9D+WNaA=
+		NvROh44vTg9o29ili4BIHbQ+9Io=
 		</data>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib</key>
 		<data>
-		3atJyrxkTI1riyXCUTHLBv+2/Mk=
+		AzMNQ5Spi/pZ5tQ70CDiPxtP74k=
 		</data>
 		<key>Frameworks/QBImagePicker.framework/_CodeSignature/CodeResources</key>
 		<data>
-		3Md8iD/ryZVk/w5lNw8ZNINMfxQ=
+		LtKkC2ccAObQrb0GvUhE84u3uj0=
 		</data>
 		<key>Frameworks/QBImagePicker.framework/de.lproj/QBImagePicker.strings</key>
 		<dict>
@@ -149,7 +149,7 @@
 		</data>
 		<key>Frameworks/RSKImageCropper.framework/RSKImageCropper</key>
 		<data>
-		jl9r/gwcJuOTqCz2OafXosST6DU=
+		cNzJE3NtHiW49SHnoPjq6JsZhjc=
 		</data>
 		<key>Frameworks/RSKImageCropper.framework/RSKImageCropperStrings.bundle/ar.lproj/RSKImageCropper.strings</key>
 		<dict>
@@ -493,7 +493,7 @@
 		</data>
 		<key>PlugIns/myRNappTests.xctest.dSYM/Contents/Resources/DWARF/myRNappTests</key>
 		<data>
-		Vm0OYyy93rSe3ksp8qt9U0wj+Q0=
+		f9bKrTTK/1Pcf7b1raLfgw5tTik=
 		</data>
 		<key>PlugIns/myRNappTests.xctest/Info.plist</key>
 		<data>
@@ -505,7 +505,7 @@
 		</data>
 		<key>PlugIns/myRNappTests.xctest/myRNappTests</key>
 		<data>
-		w5rckwuT+xQV1QOLlZsuy35Mc6M=
+		yMVblyRJcEVgYQbKtfjO13BqUNY=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -533,11 +533,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W2Ug6xA8waFfCBWmICV3LZgTQfE=
+			y8oYYWiJsAZzjrcZOg0gDWlVdGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			t/kMl2pxXzk707LcljPOc087wjPefh3BWwAoCGz2FRI=
+			P5Jz9e0O3VIPd1kk1cOTkR2enhJOwgcW9Qd9/7Y2jVU=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -643,88 +643,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GXuiYMP45eEnh+R2rK/SoUppXQU=
+			16C40K8h/35t6JqdLxVaWtwILow=
 			</data>
 			<key>hash2</key>
 			<data>
-			5uRcC9xwyunLFN2kbu7ywJpVRP9ZyPOWkb9u1CQwA3o=
+			TwBcW7sLL89bg3n/YvFF5VCXntmtN7riyRbAk8HyVaw=
 			</data>
 		</dict>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iwZHbHPu3m3FYRI+FCDLbHeFs44=
+			ezcmCSu/AZf6Yg2EE4g68sOmjLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gyFhkTx7M92K1jKJpSG0Yl9R+mQfrd/YtnmTaP54ukY=
+			hhDfSkOcoFSxjrNrTXzE8JxZlM+l/cu71+KMBQJgf0o=
 			</data>
 		</dict>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QBAlbumsNavigationController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			910GW/g83uZjKEaoWVMZh/v4K2A=
+			sWhBtG1EUpAKZ5PBdA7Nt+vSghA=
 			</data>
 			<key>hash2</key>
 			<data>
-			oWKpsWoFKbD+22pnATP6G5a1VUvLOeDaI5uXrmhtxkg=
+			4t/PYh/zNJG6HbVeh81e7dl986ipZfIYEQvoRBgOWEM=
 			</data>
 		</dict>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QBAlbumsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pIIl4DLIjiBEt0Uo/bc+YbE0hYo=
+			DUx2rSjfDlWumjghETaK90xu+ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			sD4wJ55ebtQRhkkKnNqpCHzANPlWh27P2uus71uYRwY=
+			RdEa4cQQTUNheJa62/Fo0xL0khgz/RPCJ8HmtzFsRd8=
 			</data>
 		</dict>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QBAssetsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TwyN5uZXfLKlOupS6BPUvmC4ev8=
+			dqugcX+VWIs0z/lFl8HUQW+obaY=
 			</data>
 			<key>hash2</key>
 			<data>
-			O8mjdFVNS7WE22luqoYa8H/p2bBhjGMMuYLY9dT688Q=
+			edHOvh1bXGk1rf+N3QNijaecQ/cp04VRhae5C9IQpEc=
 			</data>
 		</dict>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W7YldsVLcntIklTUyIsB9D+WNaA=
+			NvROh44vTg9o29ili4BIHbQ+9Io=
 			</data>
 			<key>hash2</key>
 			<data>
-			oKYDTmDCNO7R6wG3RyI91CL+xfnSDrlo1MPQPMqIgwY=
+			SruFIx8wYfl3LMIDS6tHs9ns1WA1KMyJsqccsIsWRFU=
 			</data>
 		</dict>
 		<key>Frameworks/QBImagePicker.framework/QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3atJyrxkTI1riyXCUTHLBv+2/Mk=
+			AzMNQ5Spi/pZ5tQ70CDiPxtP74k=
 			</data>
 			<key>hash2</key>
 			<data>
-			doV9W4NRouSFOQXZn87owTe7KWQ5/yRchiLaFC5qI7k=
+			TNnLj0mwsRxjCZtiEmL5NxaUvimLotMTPmn+YIP6ETA=
 			</data>
 		</dict>
 		<key>Frameworks/QBImagePicker.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3Md8iD/ryZVk/w5lNw8ZNINMfxQ=
+			LtKkC2ccAObQrb0GvUhE84u3uj0=
 			</data>
 			<key>hash2</key>
 			<data>
-			gxIZWdIs/+5g+mQWAaP3kr9+B6QSZenqWBOFSQ5mw0s=
+			f2GVgES7HcJBRNx/JRnJIAIyi8WFs0HKH8QmPoXuBBs=
 			</data>
 		</dict>
 		<key>Frameworks/QBImagePicker.framework/de.lproj/QBImagePicker.strings</key>
@@ -833,11 +833,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jl9r/gwcJuOTqCz2OafXosST6DU=
+			cNzJE3NtHiW49SHnoPjq6JsZhjc=
 			</data>
 			<key>hash2</key>
 			<data>
-			KFG60aHPNn2Hn4zZyNLfXi7iPhoH6wlykNvqSvUlOR0=
+			DGHJrMf+LNbmjInlnt+CWxqKCk9PhwSFu9SbsrRmOpU=
 			</data>
 		</dict>
 		<key>Frameworks/RSKImageCropper.framework/RSKImageCropperStrings.bundle/ar.lproj/RSKImageCropper.strings</key>
@@ -1381,11 +1381,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Vm0OYyy93rSe3ksp8qt9U0wj+Q0=
+			f9bKrTTK/1Pcf7b1raLfgw5tTik=
 			</data>
 			<key>hash2</key>
 			<data>
-			evSZOrQhQOxZyw056ejgwI367qba2QGowGxre4I3fwk=
+			dZ2HAiB2EUwh/o/XvYwQSJRoPWd4j3uAp6TM54s9MKY=
 			</data>
 		</dict>
 		<key>PlugIns/myRNappTests.xctest/Info.plist</key>
@@ -1414,11 +1414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w5rckwuT+xQV1QOLlZsuy35Mc6M=
+			yMVblyRJcEVgYQbKtfjO13BqUNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			HqXc2QinDBafEGAeYzNdgNONxgh7B0Whix0+hGsMYAg=
+			nun1dZvJ+kO9UuB3vg4WRJovdkn2Iy/JvtKQzBxD1Es=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>

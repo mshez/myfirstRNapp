@@ -3,13 +3,24 @@ import {uiStopLoading, uiStartLoading, authGetToken} from "./index";
 
 export const addPlace = (placeName, location, image) => {
   return dispatch => {
+    let authToken;
     dispatch(uiStartLoading())
-    fetch("https://us-central1-omega-winter-151719.cloudfunctions.net/storeImage", {
-      method: "POST",
-      body: JSON.stringify({
-        image: image.base64
+    dispatch(authGetToken())
+      .catch(()=>{
+        alert('No valid token')
       })
-    })
+      .then(token=>{
+        authToken = token
+        return fetch("https://us-central1-omega-winter-151719.cloudfunctions.net/storeImage", {
+          method: "POST",
+          body: JSON.stringify({
+            image: image.base64
+          }),
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        })
+      })
       .then(res => res.json())
       .then(parsedRes => {
         const placeData = {
@@ -17,7 +28,7 @@ export const addPlace = (placeName, location, image) => {
           location: location,
           image: parsedRes.imageUrl
         };
-        return fetch("https://omega-winter-151719.firebaseio.com/places.json", {
+        return fetch("https://omega-winter-151719.firebaseio.com/places.json?auth="+authToken, {
           method: "POST",
           body: JSON.stringify(placeData)
         })

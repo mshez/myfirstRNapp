@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>0BF1E168-4B06-458E-A800-B192BD53C114</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0BF1E168-4B06-458E-A800-B192BD53C114.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>myRNapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>myRNapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project myRNapp with scheme myRNapp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>575896656.98998904</real>
+			<key>timeStoppedRecording</key>
+			<real>575896659.29744697</real>
+			<key>title</key>
+			<string>Building project myRNapp with scheme myRNapp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>0BF1E168-4B06-458E-A800-B192BD53C114</string>
+		</dict>
+		<key>89F2B958-D1B4-4C2F-8BE3-62EE1DCB29EB</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>89F2B958-D1B4-4C2F-8BE3-62EE1DCB29EB.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>myRNapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>myRNapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project myRNapp with scheme myRNapp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>575898215.37744999</real>
+			<key>timeStoppedRecording</key>
+			<real>575898222.19328797</real>
+			<key>title</key>
+			<string>Building project myRNapp with scheme myRNapp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>89F2B958-D1B4-4C2F-8BE3-62EE1DCB29EB</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

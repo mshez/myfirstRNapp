@@ -33,7 +33,11 @@ function registerScreens() {
       <PlaceDetail {...props} />
     </Provider>
   ), () => PlaceDetail);
-  Navigation.registerComponent('awesome-places.SideDrawer', () => SideDrawer);
+  Navigation.registerComponent('awesome-places.SideDrawer', () =>
+    SideDrawer,
+    store,
+    Provider
+    );
 }
 
 module.exports = {

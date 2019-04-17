@@ -10,7 +10,7 @@ import {
   ActivityIndicator
 } from "react-native";
 import {connect} from 'react-redux'
-import {tryAuth} from '../../store/actions/index'
+import {tryAuth,authAuthSignIn} from '../../store/actions/index'
 import validate from '../../utility/validation'
 import DefaultInput from "../../components/UI/DefaultInput/DefaultInput";
 import HeadingText from "../../components/UI/HeadingText/HeadingText";
@@ -58,6 +58,10 @@ class AuthScreen extends Component {
       });
     });
   }
+  componentDidMount(){
+    this.props.onAutoSignIn()
+  }
+
   switchAuthModeHandler = () =>{
     this.setState(prevState=>{
       return {
@@ -253,7 +257,8 @@ const mapDispatchToProps = dispatch =>{
  return {
    onTryAuth: (authData,authMode) =>{
      dispatch(tryAuth(authData,authMode))
-   }
+   },
+   onAutoSignIn: ()=>{dispatch(authAuthSignIn())}
  }
 }
 export default connect(mapStateToProps,mapDispatchToProps)(AuthScreen);
